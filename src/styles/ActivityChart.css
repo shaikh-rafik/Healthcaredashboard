@@ -1,0 +1,35 @@
+
+  .activity-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .activity-title p{
+    font-size: 1rem;
+    color: gray;
+  }
+  .bar-chart {
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+    height: 128px;
+  }
+  
+  .bar {
+    width: 24px;
+    background-color: #60a5fa; /* Similar to Tailwind's blue-400 */
+    border-radius: 6px;
+    transition: height 0.3s;
+  }
+  
+  .active-img{
+    width: 100%;
+    height: 9rem;
+    background-color: #60a5fa;
+  }
+
+  .active-img img{
+    width: 100%;
+    height: 100%;
+  }

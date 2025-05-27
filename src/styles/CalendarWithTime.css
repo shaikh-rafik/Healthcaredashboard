@@ -1,0 +1,84 @@
+.calendar-container {
+    border-radius: 12px;
+    font-family: sans-serif;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1.2rem;
+  }
+
+  .calendar-header h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .calendar-nav button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+  
+  .calendar-grid {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    gap: 2.2rem;
+  }
+  
+  .calendar-day {
+    background: def2fc;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .active-day {
+    background: #eef2ff;
+    border: 2px solid #6366f1;
+  }
+  
+  .day-name {
+    font-size: 1.1rem;
+    /* color: #6b7280; */
+    font-weight: 300;
+  }
+  
+  .day-date {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 4px 0;
+  }
+  
+  .slots {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 6px;
+  }
+  
+  .time-slot {
+    padding: 0.6rem ;
+    /* border-radius: 8px;
+    background-color: #e5e7eb; */
+    font-size: 1.0rem;
+    /* color: #374151; */
+  }
+  
+  .active-slot {
+    border-radius: 8px;
+    background-color: #4f46e5;
+    color: white;
+  }
+  
+  .highlight-slot {
+     border-radius: 8px;
+    background-color: #c7d2fe;
+    color: #1e3a8a;
+  }
+  

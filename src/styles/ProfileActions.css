@@ -1,0 +1,37 @@
+.profile-actions {
+  padding: 0rem 3rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: end;
+  margin: 0.6rem 0;
+  }
+  
+  .avatar-box {
+    background-color: #00cfe8; /* Teal / Cyan */
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.7rem;
+  }
+  
+  .avatar-emoji {
+    font-size: 20px;
+  }
+  
+  .plus-box {
+    background-color: #5a4ae3; /* Purple */
+    padding: 1.7rem;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

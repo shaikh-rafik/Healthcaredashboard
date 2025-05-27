@@ -1,0 +1,62 @@
+.appointments-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.cards-grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Appointment-status {
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  font-size: 14px;
+  background-color: white;
+  flex-direction: column;
+  margin: 0 0.2rem;
+}
+
+.Appointment-label {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  padding: 1rem 0rem;
+
+}
+
+.Appointment-label h3{
+  font-size: 1.1rem;
+}
+
+
+.dentist {
+  background-color: #4f46e5;
+  /* indigo-600 */
+  color: white;
+}
+
+.physio {
+  background-color: #e0e7ff;
+  
+  color: #3730a3;
+}
+
+.health-icon {
+  width: 30px;
+  height: 24px;
+}
+
+.Appointment-date {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.Appointment-Para{
+  margin-top: 0.3rem;
+  font-size: 1.1rem;
+}
