@@ -10,7 +10,7 @@ const DashBoarActivebar=()=>{
                 <p>3 Appointment on this week</p>
                 </div>
                 <div className="active-img">
-                <img alt="img"src="./activebar.png"/>
+                <img alt="img"src="image/activebar.png"/>
                 </div>
             </section>
         </>
