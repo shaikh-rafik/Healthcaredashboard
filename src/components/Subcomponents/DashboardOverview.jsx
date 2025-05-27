@@ -24,7 +24,7 @@ const DashBoardOverview=()=>{
                 <div className="anatomy-section">
                     <div className="anatomy-image-wrapper">
                         {<img
-                            src="./body.png"
+                            src="image/body.png"
                             alt="Anatomy"
                             className="anatomy-image"
                         />}
